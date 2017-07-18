@@ -75,7 +75,7 @@ h1 {
 #about {
   height: 100vh;
   width: 100%;
-  background-image: url("../imgs/snowytimp.jpg");
+  background-image: url("./imgs/snowytimp.jpg");
   background-size: cover;
   display: table;
   background-attachment: fixed;
@@ -84,7 +84,7 @@ h1 {
 #skills {
   height: 100vh;
   width: 100%;
-  background-image: url("../imgs/timp1.jpg");
+  background-image: url("./imgs/timp1.jpg");
   background-size: cover;
   display: table;
   background-attachment: fixed;
@@ -93,7 +93,7 @@ h1 {
 #projects {
   height: 100vh;
   width: 100%;
-  background-image: url("../imgs/timpnight.jpg");
+  background-image: url("./imgs/timpnight.jpg");
   background-size: cover;
   display: table;
   background-attachment: fixed;
@@ -102,7 +102,7 @@ h1 {
 #education {
   height: 100vh;
   width: 100%;
-  background-image: url("../imgs/Mount_Timpanogos.jpg");
+  background-image: url("./imgs/Mount_Timpanogos.jpg");
   background-size: cover;
   display: table;
   background-attachment: fixed;
