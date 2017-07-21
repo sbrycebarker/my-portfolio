@@ -32,9 +32,10 @@ header {
   position: relative;
   margin: auto auto;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   text-align: center;
+  color: white
 }
 
 .headeritems {
@@ -106,4 +107,8 @@ h1 {
   background-size: cover;
   display: table;
   background-attachment: fixed;
+}
+
+.sec {
+  border-bottom: 2px solid white
 }
