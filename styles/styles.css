@@ -38,6 +38,10 @@ header {
   color: white
 }
 
+.home h1:hover {
+  color: grey;
+}
+
 .headeritems {
   height: 75px;
   width: 350px;
@@ -65,6 +69,12 @@ header {
   font-weight: bold;
   color: white;
 }
+
+.headeritem h2:hover {
+  color: grey;
+}
+
+
 h1 {
   font-family: sans-serif;
   color: white;
@@ -73,7 +83,7 @@ h1 {
   display: table-cell;
   vertical-align: middle;
 }
-#about {
+#top {
   height: 100vh;
   width: 100%;
   background-image: url("./imgs/snowytimp.jpg");
@@ -87,8 +97,29 @@ h1 {
   width: 100%;
   background-image: url("./imgs/timp1.jpg");
   background-size: cover;
-  display: table;
+  display: flex;
+  flex-direction: column;
   background-attachment: fixed;
+}
+
+.skillsbox {
+  height: 50vh;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsbox ul {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+i {
+  font-size: 50px
 }
 
 #projects {
@@ -96,8 +127,29 @@ h1 {
   width: 100%;
   background-image: url("./imgs/timpnight.jpg");
   background-size: cover;
-  display: table;
+  display: flex;
+  flex-direction: column;
   background-attachment: fixed;
+}
+
+.projcon {
+  height: 75vh;
+  width: 90%;
+  margin: auto;
+  /*border: 1px solid white;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.project {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background-color: black;
+  opacity: .9;
 }
 
 #education {
@@ -110,5 +162,6 @@ h1 {
 }
 
 .sec {
-  border-bottom: 2px solid white
+  border-bottom: 2px solid white;
+  color: white;
 }

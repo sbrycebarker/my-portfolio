@@ -6,14 +6,5 @@ angular.module("myApp", ['ui.router']).config(function($urlRouterProvider, $stat
             templateUrl: "./views/home.html",
             controller: 'mainCtrl'
           })
-          // .state('about', {
-          //   url: '/about',
-          //   templateUrl: "./views/about.html"
-          // })
-})
 
-// .filter('startFrom', function() {
-//             return function(data, start) {
-//               return data.slice(start);
-//             }
-//           })
+})
