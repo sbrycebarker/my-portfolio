@@ -116,10 +116,11 @@ h1 {
   padding: 25px;
   margin: auto;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   background-color: black;
   border-radius: 15px;
   opacity: .9;
+  justify-content: center;
 }
 
 .skillsbox ul {
@@ -127,11 +128,12 @@ h1 {
   width: auto;
   display: flex;
   flex-direction: row;
-  margin: auto;
+  margin: auto 25px;
 }
 
 i {
-  font-size: 50px
+  font-size: 75px;
+  margin: auto;
 }
 
 #projects {
