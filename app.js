@@ -3,8 +3,8 @@ angular.module("myApp", ['ui.router']).config(function($urlRouterProvider, $stat
           $stateProvider
           .state('home', {
             url: '/',
-            templateUrl: "../home.html",
-            controller: 'ctrl'
+            templateUrl: "./views/home.html",
+            controller: 'mainCtrl'
           })
           // .state('about', {
           //   url: '/about',
