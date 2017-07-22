@@ -86,6 +86,14 @@ h1 {
 #top {
   height: 100vh;
   width: 100%;
+  background-image: url("./imgs/mike-dennler-159405.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#about {
+  height: 100vh;
+  width: 100%;
   background-image: url("./imgs/snowytimp.jpg");
   background-size: cover;
   display: table;
@@ -103,11 +111,15 @@ h1 {
 }
 
 .skillsbox {
-  height: 50vh;
+  height: auto;
   width: 50%;
+  padding: 25px;
   margin: auto;
   display: flex;
   flex-direction: row;
+  background-color: black;
+  border-radius: 15px;
+  opacity: .9;
 }
 
 .skillsbox ul {
@@ -125,7 +137,7 @@ i {
 #projects {
   height: 100vh;
   width: 100%;
-  background-image: url("./imgs/timpnight.jpg");
+  background-image: url("./imgs/morning_mount_timpanogos-wallpaper-1920x1080.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
