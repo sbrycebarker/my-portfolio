@@ -113,7 +113,7 @@ h1 {
 .skillsbox {
   height: auto;
   width: 50%;
-  padding: 25px;
+  padding: 50px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -128,7 +128,7 @@ h1 {
   width: auto;
   display: flex;
   flex-direction: row;
-  margin: auto 25px;
+  margin: 25px 25px;
 }
 
 i {
@@ -157,7 +157,7 @@ i {
 
 .project {
   height: 500px;
-  width: 500px;
+  width: 27vw;
   margin: auto;
   display: flex;
   flex-direction: row;
