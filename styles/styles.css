@@ -40,14 +40,18 @@ header {
 
 .home h1:hover {
   color: grey;
+  font-size: 18px;
+  transition: font-size;
+  transition-duration: .5s;
 }
 
 .headeritems {
   height: 75px;
-  width: 350px;
+  width: 400px;
   position: absolute;
   right: 100px;
   display: flex;
+  text-align: center;
 }
 
 .headeritem {
@@ -68,10 +72,15 @@ header {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 
 .headeritem h2:hover {
   color: grey;
+  font-size: 18px;
+  transition: font-size;
+  transition-duration: .5s;
+  margin: auto;
 }
 
 
@@ -131,10 +140,16 @@ h1 {
   margin: 25px 25px;
 }
 
+.skillsbox ul:hover {
+  transform: rotateY(360deg);
+  transition-duration: 1s;
+}
+
 i {
   font-size: 75px;
   margin: auto;
 }
+
 
 #projects {
   height: 100vh;
@@ -156,7 +171,7 @@ i {
 }
 
 .project {
-  height: 500px;
+  height: 60vh;
   width: 27vw;
   margin: auto;
   display: flex;
