@@ -194,11 +194,11 @@ i {
 }
 
 #subaru {
-  background-image: url("./imgs/starwars.png");
+  background-image: url("./imgs/subaru.png");
 }
 
 #rockshowZ {
-  background-image: url("./imgs/starwars.png");
+  background-image: url("./imgs/rockshow.png");
 }
 
 .projcon {
@@ -247,7 +247,7 @@ i {
   opacity: .3
 }
 
-#education {
+#contact {
   height: 100vh;
   width: 100%;
   background-image: url("./imgs/forest.jpg");
