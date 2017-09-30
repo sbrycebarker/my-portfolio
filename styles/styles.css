@@ -55,12 +55,11 @@ a:hover {
   font-weight: bold;
   text-align: center;
   color: white;
+  transition: color 2s
 }
 
 .home h1:hover {
   color: grey;
-  font-size: 18px;
-  transition: font-size;
   transition-duration: .5s;
 }
 
@@ -92,6 +91,7 @@ a:hover {
   font-weight: bold;
   color: white;
   text-align: center;
+  transition: color 2s
 }
 
 .headeritem h2:hover {
@@ -172,6 +172,13 @@ a:hover {
 .md {
   height: 30px;
   width: 40px;
+}
+
+.md:hover {
+  height: 33.5px;
+  width: 45px;
+  transition: font-size;
+  transition-duration: .5s;
 }
 
 #skills {
@@ -293,6 +300,7 @@ i:hover {
   text-align: center;
   display: flex;
   vertical-align: middle;
+  transition: opacity 2s;
 }
 
 .projcover h1 {
@@ -302,6 +310,8 @@ i:hover {
 }
 
 .projcover:hover {
+  transition-property: opacity;
+  transition-duration: 1s;
   opacity: .3
 }
 
