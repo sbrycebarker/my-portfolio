@@ -14,7 +14,8 @@ nav {
   position: fixed;
   z-index: 1;
   border-bottom: .5px solid white;
-  color: #404040;
+  color: none;
+  /*opacity: 0;*/
 }
 
 a:hover {
@@ -102,13 +103,12 @@ a:hover {
 }
 
 #top {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-image: url("./imgs/timp1.jpg");
   background-size: cover;
   display: flex;
   background-attachment: fixed;
-  /*color: white*/
 }
 
 .container h1 {
@@ -134,10 +134,11 @@ a:hover {
   width: 100%;
   background-color: #404040;
   color: black;
-  background-size: cover;
   display: flex;
+  position: relative;
   flex-direction: column;
   background-attachment: fixed;
+  border-top: 2px solid white;
   border-bottom: 2px solid #222;
   text-align: center;
 }
@@ -232,14 +233,23 @@ i:hover {
 }
 
 #projects {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
+  position: relative;
   background-image: url("./imgs/Mount_Timpanogos.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
   background-attachment: fixed;
-  border-bottom: 2px solid #222
+  z-index: -1;
+}
+.proback {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: -1;
+  background-image: url("./imgs/Mount_Timpanogos.jpg");
+  background-size: cover;
 }
 
 #projects h1 {
@@ -261,13 +271,16 @@ i:hover {
 .projcon {
   height: 75vh;
   width: 90%;
+  top: -1000px;
   margin: auto;
   display: flex;
   flex-direction: row;
+  position: relative;
+  /*border: 1px white solid*/
 }
 
 .project {
-  height: 60vh;
+  height: 50vh;
   width: 27vw;
   margin: auto;
   display: flex;
@@ -276,6 +289,7 @@ i:hover {
   opacity: .9;
   border-radius: 15px;
   color: white;
+  position: relative;
 }
 
 .project a {
@@ -312,17 +326,19 @@ i:hover {
 .projcover:hover {
   transition-property: opacity;
   transition-duration: 1s;
-  opacity: .3
+  opacity: .7
 }
 
 #contact {
-  height: 60vh;
+  height: 80vh;
   width: 100%;
+  position: relative;
   background-color: white;
   background-size: cover;
   display: flex;
   flex-direction: column;
   background-attachment: fixed;
+  border-top: 2px solid black;
 }
 
 .contcon {
@@ -344,7 +360,7 @@ i:hover {
   text-align: center;
 }
 .sec {
-  border-bottom: 2px solid white;
+  /*border-bottom: 2px solid white;*/
   color: white;
 }
 
