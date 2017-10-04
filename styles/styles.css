@@ -241,15 +241,7 @@ i:hover {
   display: flex;
   flex-direction: column;
   background-attachment: fixed;
-  z-index: -1;
-}
-.proback {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  z-index: -1;
-  background-image: url("./imgs/Mount_Timpanogos.jpg");
-  background-size: cover;
+  /*background: none*/
 }
 
 #projects h1 {
@@ -271,12 +263,11 @@ i:hover {
 .projcon {
   height: 75vh;
   width: 90%;
-  top: -1000px;
   margin: auto;
   display: flex;
   flex-direction: row;
   position: relative;
-  /*border: 1px white solid*/
+  /*border: 1px solid black;*/
 }
 
 .project {
