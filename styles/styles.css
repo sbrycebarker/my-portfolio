@@ -235,7 +235,7 @@
   }
 
   #projects {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: relative;
     background-image: url("./imgs/Mount_Timpanogos.jpg");
@@ -243,11 +243,13 @@
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
-    /*background: none*/
   }
 
   #projects h1 {
     margin: auto;
+  }
+  #starpro {
+    border-radius: 15px 15px 0 0;
   }
 
   #starwars {
@@ -263,30 +265,32 @@
   }
 
   .projcon {
-    height: 75vh;
+    height: 50vh;
     width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
     position: relative;
-    /*border: 1px solid black;*/
+    border-radius: 15px;
+    background-color: black;
+  }
+
+  .pronam {
+    font-size: 2em;
   }
 
   .project {
     height: 50vh;
-    width: 27vw;
-    margin: auto;
+    width: 33.3%;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    /*background-color: black;*/
     opacity: .9;
-    border-radius: 15px;
     color: white;
     position: relative;
   }
 
   .project a {
-    margin: 10% auto;
     height: 300px;
     width: 100%;
   }
@@ -300,7 +304,7 @@
 
   .projcover {
     height: 300px;
-    width: 27vw;
+    width: 100%;
     background-color: white;
     z-index: 3;
     opacity: 0;
