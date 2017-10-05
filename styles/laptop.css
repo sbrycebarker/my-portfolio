@@ -1,5 +1,4 @@
-@media only screen and (min-width: 1100px) {
-
+@media only screen and (max-width: 1100px) {
   html {
     height: 2000px;
     width: 100%;
@@ -146,12 +145,12 @@
   }
 
   .aboutcon {
-    height: 30%;
-    width: 30%;
+    height: 33%;
+    width: 100%;
     background: white;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     font-size: 20px;
-    margin: auto;
+    /*margin: auto;*/
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -198,8 +197,8 @@
 
   .skillsbox {
     height: auto;
-    width: 50%;
-    padding: 50px;
+    width: 70%;
+    padding: 25px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -215,7 +214,7 @@
     display: flex;
     color: white;
     flex-direction: row;
-    margin: 25px 25px;
+    margin: 20px 15px;
   }
 
   .skillsbox ul:hover {
@@ -225,7 +224,7 @@
   }
 
   i {
-    font-size: 75px;
+    font-size: 50px;
     margin: auto;
   }
 
@@ -243,7 +242,6 @@
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
-    /*background: none*/
   }
 
   #projects h1 {
@@ -252,14 +250,17 @@
 
   #starwars {
     background-image: url("./imgs/starwars.png");
+    background-size: cover;
   }
 
   #subaru {
     background-image: url("./imgs/subaru.png");
+    background-size: cover;
   }
 
   #rockshowZ {
     background-image: url("./imgs/rockshow.png");
+    background-size: cover;
   }
 
   .projcon {
@@ -269,7 +270,14 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    /*border: 1px solid black;*/
+  }
+
+  .pronam {
+    font-size: 25px;
+  }
+
+  .go2 {
+    font-size: 30px
   }
 
   .project {
@@ -287,19 +295,19 @@
 
   .project a {
     margin: 10% auto;
-    height: 300px;
+    height: 50%;
     width: 100%;
   }
 
   .projimg {
-    height: 300px;
+    height: 100%;
     width: 100%;
     background-size: 100%;
     background: cover;
   }
 
   .projcover {
-    height: 300px;
+    height: 100%;
     width: 27vw;
     background-color: white;
     z-index: 3;
@@ -312,7 +320,7 @@
 
   .projcover h1 {
     height: 100px;
-    width: 200px;
+    width: 100%;
     position: relative;
   }
 
@@ -336,7 +344,7 @@
 
   .contcon {
     height: auto;
-    width: 50%;
+    width: 80%;
     padding: 50px;
     margin: auto;
     display: flex;
@@ -345,7 +353,8 @@
     border-radius: 15px;
     opacity: .9;
     justify-content: center;
-    color: black
+    color: black;
+    border: 1px solid black;
   }
 
   .det {
@@ -360,5 +369,4 @@
   #linkedin {
     position: relative;
   }
-
 }
