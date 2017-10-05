@@ -1,0 +1,372 @@
+@media only screen and (max-width: 720px) {
+  html {
+    height: 2000px;
+    width: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    border-bottom: .5px solid white;
+    color: none;
+    /*opacity: 0;*/
+  }
+
+  a:hover {
+    color: white;
+    background-color: none;
+  }
+
+  .navbar-inverse {
+      background-color: #404040;
+      border-color: #080808;
+  }
+
+  .homecon {
+    height: 1000px;
+    width: 100%;
+  }
+
+  .titles {
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .home {
+    height: 75px;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    display: flex;
+  }
+
+  .home h1 {
+    position: relative;
+    margin: auto auto;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transition: color 2s
+  }
+
+  .home h1:hover {
+    color: grey;
+    transition-duration: .5s;
+  }
+
+  .headeritems {
+    height: 75px;
+    width: 400px;
+    position: absolute;
+    right: 100px;
+    display: flex;
+    text-align: center;
+  }
+
+  .headeritem {
+    height: 15px;
+    width: 75px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+    text-align: center;
+  }
+
+  .headeritem h2 {
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    transition: color 2s
+  }
+
+  .headeritem h2:hover {
+    color: grey;
+    transition: color;
+    transition-duration: .5s;
+    margin: auto;
+  }
+
+  #top {
+    height: 80vh;
+    width: 100%;
+    background-image: url("./imgs/timp1.jpg");
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+  }
+
+  .namepos h1 {
+    width: 80%;
+    margin: auto;
+  }
+
+  .namepos {
+    height: 25%;
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    background-color: black;
+    border-radius: 15px;
+    opacity: .9;
+    text-align: center;
+  }
+
+  #about {
+    height: 40vh;
+    width: 100%;
+    background-color: #404040;
+    color: black;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-attachment: fixed;
+    border-top: 2px solid white;
+    border-bottom: 2px solid #222;
+    text-align: center;
+  }
+
+  .aboutcon {
+    height: 33%;
+    width: 100%;
+    background: white;
+    /*border-radius: 15px;*/
+    font-size: 20px;
+    /*margin: auto;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  .aboutcon p {
+    height: 20px;
+    width: 450px;
+    top: -5px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .devicon-gulp-plain {
+    text-decoration: none;
+  }
+
+  .md {
+    height: 30px;
+    width: 40px;
+  }
+
+  .md:hover {
+    height: 33.5px;
+    width: 45px;
+    transition: font-size;
+    transition-duration: .5s;
+  }
+
+  #skills {
+    height: 55vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    border-bottom: 2px solid #222
+  }
+
+  .skillsbox {
+    height: auto;
+    width: 70%;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 15px;
+    opacity: .9;
+    justify-content: center;
+  }
+
+  .skillsbox ul {
+    height: auto;
+    width: auto;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    margin: 20px 15px;
+  }
+
+  .skillsbox ul:hover {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  }
+
+  i {
+    font-size: 50px;
+    margin: auto;
+  }
+
+  i:hover {
+    text-decoration: none;
+    background-color: none
+  }
+
+  #projects {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("./imgs/Mount_Timpanogos.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+  }
+
+  #projects h1 {
+    margin: auto;
+  }
+
+  #starwars {
+    background-image: url("./imgs/starwars.png");
+    background-size: cover;
+  }
+
+  #subaru {
+    background-image: url("./imgs/subaru.png");
+    background-size: cover;
+  }
+
+  #rockshowZ {
+    background-image: url("./imgs/rockshow.png");
+    background-size: cover;
+  }
+
+  .projcon {
+    height: 75vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .pronam {
+    font-size: 25px;
+  }
+
+  .go2 {
+    font-size: 30px
+  }
+
+  .project {
+    height: 50vh;
+    width: 27vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: .9;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+  }
+
+  .project a {
+    margin: 10% auto;
+    height: 50%;
+    width: 100%;
+  }
+
+  .projimg {
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background: cover;
+  }
+
+  .projcover {
+    height: 100%;
+    width: 27vw;
+    background-color: white;
+    z-index: 3;
+    opacity: 0;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    transition: opacity 2s;
+  }
+
+  .projcover h1 {
+    height: 100px;
+    width: 100%;
+    position: relative;
+  }
+
+  .projcover:hover {
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: .7
+  }
+
+  #contact {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    border-top: 2px solid black;
+  }
+
+  .contcon {
+    height: auto;
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    border-radius: 15px;
+    opacity: .9;
+    justify-content: center;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .det {
+    margin: auto;
+    text-align: center;
+  }
+  .sec {
+    /*border-bottom: 2px solid white;*/
+    color: white;
+  }
+
+  #linkedin {
+    position: relative;
+  }
+}
