@@ -225,6 +225,12 @@
     background-color: none;
   }
 
+  .skillsbox ul:active {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  }
+
   i {
     font-size: 75px;
     margin: auto;
