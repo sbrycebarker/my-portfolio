@@ -1,4 +1,4 @@
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 800px) {
   html {
     height: 2000px;
     width: 100%;
@@ -234,7 +234,7 @@
   }
 
   #projects {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: relative;
     background-image: url("./imgs/Mount_Timpanogos.jpg");
@@ -246,6 +246,10 @@
 
   #projects h1 {
     margin: auto;
+  }
+
+  #starpro {
+    border-radius: none;
   }
 
   #starwars {
@@ -264,12 +268,15 @@
   }
 
   .projcon {
-    height: 75vh;
-    width: 90%;
+    height: 675px;
+    width: 100%;
+    top: 15px;
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
+    border-radius: 0 0 0 0;
+    background-color: black;
   }
 
   .pronam {
@@ -277,24 +284,23 @@
   }
 
   .go2 {
-    font-size: 30px
+    font-size: 25px;
+    text-align: center;
   }
 
   .project {
     height: 50vh;
-    width: 27vw;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    background-color: black;
     opacity: .9;
-    border-radius: 15px;
+    border-radius: none;
     color: white;
     position: relative;
   }
 
   .project a {
-    margin: 10% auto;
     height: 50%;
     width: 100%;
   }
@@ -304,15 +310,15 @@
     width: 100%;
     background-size: 100%;
     background: cover;
+    border-radius: none
   }
 
   .projcover {
     height: 100%;
-    width: 27vw;
+    width: 100%;
     background-color: white;
     z-index: 3;
     opacity: 0;
-    text-align: center;
     display: flex;
     vertical-align: middle;
     transition: opacity 2s;
@@ -320,8 +326,10 @@
 
   .projcover h1 {
     height: 100px;
-    width: 100%;
+    width: 125px;
+    top: 20px;
     position: relative;
+    /*text-align: center;*/
   }
 
   .projcover:hover {
@@ -344,11 +352,11 @@
 
   .contcon {
     height: auto;
-    width: 80%;
+    width: 100%;
     padding: 50px;
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: none;
     border-radius: 15px;
     opacity: .9;

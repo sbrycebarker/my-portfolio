@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1340px) {
   html {
     height: 2000px;
     width: 100%;
@@ -234,7 +234,7 @@
   }
 
   #projects {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: relative;
     background-image: url("./imgs/Mount_Timpanogos.jpg");
@@ -246,6 +246,10 @@
 
   #projects h1 {
     margin: auto;
+  }
+
+  #starpro {
+    border-radius: 15px 15px 0 0;
   }
 
   #starwars {
@@ -264,12 +268,14 @@
   }
 
   .projcon {
-    height: 75vh;
+    height: 50vh;
     width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
     position: relative;
+    border-radius: 15px;
+    background-color: black;
   }
 
   .pronam {
@@ -277,16 +283,16 @@
   }
 
   .go2 {
-    font-size: 30px
+    font-size: 25px;
+    text-align: center;
   }
 
   .project {
     height: 50vh;
-    width: 27vw;
+    width: 33.3%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    background-color: black;
     opacity: .9;
     border-radius: 15px;
     color: white;
@@ -294,7 +300,6 @@
   }
 
   .project a {
-    margin: 10% auto;
     height: 50%;
     width: 100%;
   }
@@ -308,11 +313,10 @@
 
   .projcover {
     height: 100%;
-    width: 27vw;
+    width: 100%;
     background-color: white;
     z-index: 3;
     opacity: 0;
-    text-align: center;
     display: flex;
     vertical-align: middle;
     transition: opacity 2s;
@@ -320,8 +324,10 @@
 
   .projcover h1 {
     height: 100px;
-    width: 100%;
+    width: 125px;
+    top: 20px;
     position: relative;
+    /*text-align: center;*/
   }
 
   .projcover:hover {

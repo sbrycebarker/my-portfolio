@@ -147,7 +147,7 @@
 
   .aboutcon {
     height: 30%;
-    width: 30%;
+    width: 33%;
     background: white;
     border-radius: 15px;
     font-size: 20px;
@@ -166,6 +166,7 @@
     margin: auto;
     position: relative;
     text-align: center;
+    text-overflow: ellipsis;
   }
 
   .devicon-gulp-plain {
