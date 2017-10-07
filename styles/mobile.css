@@ -39,12 +39,20 @@
     display: table-cell;
     vertical-align: middle;
   }
-
+  /*height: 40px;
+  top: 10px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  display: flex;
+  border-right: solid 1px white;*/
   .home {
-    height: 75px;
+    height: 40px;
+    top: 10px;
     width: 75px;
     position: absolute;
     left: 0px;
+    border-right: solid 1px white;
   }
 
   .home h1 {
