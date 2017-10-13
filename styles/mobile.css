@@ -130,7 +130,7 @@
     position: relative;
     margin: auto;
     background-color: black;
-    /*border-radius: 15px;*/
+    border-radius: 0;
     opacity: .9;
     text-align: center;
   }
