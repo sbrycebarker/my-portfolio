@@ -123,13 +123,13 @@
 
   .namepos {
     height: 25%;
-    width: 66%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
     margin: auto;
     background-color: black;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     opacity: .9;
     text-align: center;
   }
@@ -259,19 +259,24 @@
     margin: auto;
   }
   #starpro {
-    border-radius: 15px 15px 0 0;
+    /*border-radius: 15px 15px 0 0;*/
   }
 
   #starwars {
     background-image: url("./imgs/starwars.png");
+    background-size: cover;
+    border-radius: 15px 0 0 0;
   }
 
   #subaru {
     background-image: url("./imgs/subaru.png");
+    background-size: cover;
   }
 
   #rockshowZ {
     background-image: url("./imgs/rockshow.png");
+    background-size: cover;
+    border-radius: 0 15px 0 0;
   }
 
   .projcon {
