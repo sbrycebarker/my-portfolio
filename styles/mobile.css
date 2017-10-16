@@ -136,7 +136,7 @@
   }
 
   #about {
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     background-color: #404040;
     color: black;
@@ -150,10 +150,10 @@
   }
 
   .aboutcon {
-    height: 55%;
+    height: 75%;
     width: 100%;
     background: white;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -162,9 +162,9 @@
   }
 
   .aboutcon p {
-    height: 20px;
+    height: 10px;
     width: 90%;
-    top: -5px;
+    top: -10px;
     margin: auto;
     position: relative;
     text-align: center;
