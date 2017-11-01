@@ -329,6 +329,14 @@
     transition: opacity 2s;
   }
 
+  .starcov {
+    border-radius: 15px 0 0 0;
+  }
+
+  .rockcov {
+    border-radius: 0 15px 0 0;
+  }
+
   .projcover h1 {
     height: 100px;
     width: 200px;
