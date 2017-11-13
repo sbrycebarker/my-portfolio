@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8">
 <title>Sergio Barker</title>
+  <link rel="icon" href="../styles/imgs/githubwhite.png" type="image/png" sizes="18x18">
   <link rel="stylesheet" type="text/css" href="./styles/reset.css">
   <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="./styles/laptop.css">
+  <link rel="stylesheet" type="text/css" href="./styles/mobile.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body ng-controller="mainCtrl">
-  <header class="header" id="headerNav">
+  <header class="navigation" id="headerNav">
 
     <a href="#top">
       <div class="home">
@@ -19,23 +23,23 @@
 
     <div class="headeritems">
       <div id="page1" class="headeritem">
-        <a href="#about">
+        <a href="#about" style="text-decoration: none">
         <h2>About</h2>
         </a>
       </div>
       <div id="page2" class="headeritem">
-        <a href="#skills">
+        <a href="#skills" style="text-decoration: none">
         <h2>Skills</h2>
         </a>
       </div>
       <div id="page3" class="headeritem">
-        <a href="#projects">
+        <a href="#projects" style="text-decoration: none">
         <h2>Projects</h2>
         </a>
       </div>
       <div id="page4" class="headeritem">
-        <a href="#education">
-        <h2>Education</h2>
+        <a href="#contact" style="text-decoration: none">
+        <h2>Contact</h2>
         </a>
       </div>
     </div>
@@ -50,15 +54,16 @@
 
       <ui-view></ui-view>
 
-
     </main>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/7c1d739023.js"></script>
 <script src="./app.js"></script>
 <script src="./js/mainCtrl.js"></script>
 <script src="./js/service.js"></script>
 <script src="./js/jQuery.js"></script>
+<script src="./js/parallax.js"></script>
 </body>
 </html>
