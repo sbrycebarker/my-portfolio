@@ -1,6 +1,6 @@
 @font-face {
   font-family: JosifinSans-Regular;
-  src: url(JosefinSans-Regular);
+  src: url(./fonts/JosefinSans-Regular.ttf);
 }
 
 @media only screen and (min-width: 1400px) {
@@ -8,10 +8,13 @@
   html {
     height: 2000px;
     width: 100%;
+    font-family: JosifinSans-Regular;
   }
+
   body {
     margin: 0;
     padding: 0;
+    font-family: JosifinSans-Regular;
   }
 
   a {
@@ -84,7 +87,7 @@
   .home h1 {
     position: relative;
     margin: auto auto;
-    font-family: sans-serif;
+    font-family: JosifinSans-Regular;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -121,7 +124,7 @@
     height: auto;
     width: auto;
     margin: auto;
-    font-family: sans-serif;
+    font-family: JosifinSans-Regular;
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -139,7 +142,7 @@
   #top {
     height: 725px;
     width: 100%;
-    background-image: url("./imgs/timp1.jpg");
+    background-image: url("./imgs/wood.jpg");
     background-size: cover;
     display: flex;
     background-attachment: fixed;
@@ -162,7 +165,6 @@
     border-radius: 0;
     opacity: .9;
     text-align: center;
-    /*border: 2px solid white*/
   }
 
   .namepos h2 {
@@ -170,7 +172,7 @@
   }
 
   #about {
-    height: 400px;
+    height: 100vh;
     width: 100%;
     background-color: #222222;
     color: white;
@@ -184,11 +186,8 @@
   }
 
   .aboutcon {
-    height: 40%;
+    height: auto;
     width: 33%;
-    /*background: white;*/
-    /*border-radius: 15px;*/
-    border: 2px solid white;
     font-size: 20px;
     margin: auto;
     text-align: center;
@@ -202,7 +201,7 @@
     height: 20px;
     width: 450px;
     top: -5px;
-    margin: auto;
+    margin: 50px auto;
     position: relative;
     text-align: center;
     text-overflow: ellipsis;
@@ -411,6 +410,7 @@
     background-color: #222222;
     background-size: cover;
     display: flex;
+    font-family: JosifinSans-Regular;
     flex-direction: column;
     background-attachment: fixed;
     border-top: 2px solid white;

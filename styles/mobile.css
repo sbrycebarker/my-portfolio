@@ -51,16 +51,20 @@
     top: 10px;
     width: 75px;
     position: absolute;
+    display: block;
     left: 0px;
     border-right: solid 1px white;
   }
 
   .home h1 {
+    height: 18px;
+    width: 50px;
+    margin: 11px;
     position: relative;
-    margin: auto auto;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: bold;
+    /*border: 1px solid white;*/
     color: white;
     transition: color 2s
   }
@@ -71,7 +75,7 @@
   }
 
   .headeritems {
-    height: 75px;
+    height: 65px;
     width: 225px;
     position: absolute;
     display: flex;
@@ -86,6 +90,7 @@
     display: flex;
     flex-direction: row;
     margin: auto;
+    justify-content: center;
   }
 
   .headeritem h2 {
@@ -96,7 +101,7 @@
     font-size: 12px;
     font-weight: bold;
     color: white;
-    text-align: right;
+    text-align: center;
     transition: color 2s;
     right: 0
   }
@@ -111,13 +116,14 @@
   #top {
     height: 80vh;
     width: 100%;
-    background-image: url("./imgs/timp1.jpg");
+    background-image: url("./imgs/wood.jpg");
     background-size: cover;
     display: flex;
     background-attachment: fixed;
   }
 
   .namepos h1 {
+    margin: auto;
     width: 60%;
     font-size: 15px;
   }
@@ -136,26 +142,24 @@
   }
 
   #about {
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     background-color: #222222;
-    color: black;
     display: flex;
     position: relative;
     flex-direction: column;
     background-attachment: fixed;
-    /*border: none;*/
     border-top: 2px solid white;
-    border-bottom: 2px solid #222;
     text-align: center;
   }
 
   .aboutcon {
+    height: 200px;
+    /*border: 1px solid white;*/
     background: #222222;
     font-size: 18px;
     text-align: center;
     display: flex;
-    /*border: none;*/
     flex-direction: column;
     justify-content: center;
     vertical-align: middle;
@@ -187,7 +191,7 @@
   }
 
   #skills {
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     background-color: #222222;
     color: white;
@@ -206,7 +210,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #222222;
-    /*border-radius: 15px;*/
+    border: 1px solid white;
     opacity: .9;
     justify-content: center;
   }
@@ -243,19 +247,17 @@
   }
 
   #projects {
-    height: 100vh;
+    height: auto;
     width: 100%;
     position: relative;
-    /*background-image: url("./imgs/Mount_Timpanogos.jpg");
-    background-size: cover;*/
     display: flex;
     background-color: #222222;
     flex-direction: column;
     background-attachment: fixed;
   }
 
-  #projects h1 {
-    margin: auto;
+  .#projects .title {
+    top: 100px;
   }
 
   #starpro {
