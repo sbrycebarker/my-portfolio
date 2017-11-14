@@ -116,7 +116,7 @@
   #top {
     height: 80vh;
     width: 100%;
-    background-image: url("./imgs/wood.jpg");
+    background-image: url("./imgs/darkwood.jpg");
     background-size: cover;
     display: flex;
     background-attachment: fixed;
@@ -221,7 +221,7 @@
     display: flex;
     color: white;
     flex-direction: row;
-    margin: 15px 15px;
+    margin: 20px 20px;
   }
 
   .skillsbox ul:hover {
@@ -237,7 +237,7 @@
   }
 
   i {
-    font-size: 25px;
+    font-size: 50px;
     margin: auto;
   }
 
@@ -337,6 +337,7 @@
     display: flex;
     vertical-align: middle;
     transition: opacity 2s;
+    text-align: center;
   }
 
   .projcover h1 {
@@ -344,6 +345,7 @@
     width: 125px;
     top: 20px;
     position: relative;
+    margin: auto;
     /*text-align: center;*/
   }
 
