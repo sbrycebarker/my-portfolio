@@ -294,18 +294,27 @@
   #starwars {
     background-image: url("./imgs/starwars.png");
     background-size: cover;
+    background-position: center;
     /*border-radius: 15px 0 0 0;*/
   }
 
   #subaru {
     background-image: url("./imgs/subaru.png");
     background-size: cover;
+    background-position: center;
   }
 
   #rockshowZ {
-    background-image: url("./imgs/rockshow.png");
-    background-size: 100% 200px;
+    background-image: url("./imgs/rockshowz.png");
+    background-size: cover;
+    background-position: center;
     /*border-radius: 0 15px 0 0;*/
+  }
+
+  #todoapp {
+    background-image: url("./imgs/todoapp.png");
+    background-size: cover;
+    background-position: center;
   }
 
   .projcon {

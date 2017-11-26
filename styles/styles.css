@@ -300,16 +300,26 @@
   #starwars {
     background-image: url("./imgs/starwars.png");
     background-size: cover;
+    background-position: center;
   }
 
   #subaru {
     background-image: url("./imgs/subaru.png");
     background-size: cover;
+    background-position: center;
   }
 
   #rockshowZ {
-    background-image: url("./imgs/rockshow.png");
+    background-image: url("./imgs/rockshowz.png");
     background-size: cover;
+    background-position: center;
+  }
+
+  #todoapp {
+    background-image: url("./imgs/todoapp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .projcon {
