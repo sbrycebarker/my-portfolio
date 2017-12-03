@@ -21,11 +21,11 @@
   header {
     height: 65px;
     width: 100%;
-    background-color: #222222;
+    background-color: white;
     position: fixed;
     z-index: 1;
-    border-bottom: 1px solid white;
-    color: none;
+    border-bottom: 1px solid black;
+    color: black;
     /*opacity: 0;*/
   }
 
@@ -45,7 +45,7 @@
   }
 
   .navbar-inverse {
-      background-color: #222222;
+      background-color: white;
       /*border-color: #080808;*/
   }
 
@@ -68,24 +68,24 @@
     position: absolute;
     left: 100px;
     display: flex;
-    border-right: solid 1px white;
+    border-right: solid 1px black;
   }
 
   .home h1 {
     position: relative;
     margin: auto auto;
-    font-family: sans-serif;
+    font-family: JosifinSans-Regular;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: black;
     transition: color 2s
   }
 
   .home h1:hover {
     color: grey;
     transition-duration: .5s;
-    border-bottom: 2px solid white
+    /*border-bottom: 2px solid black*/
   }
 
   .headeritems {
@@ -111,10 +111,10 @@
     height: auto;
     width: auto;
     margin: auto;
-    font-family: sans-serif;
+    font-family: JosifinSans-Regular;
     font-size: 16px;
     font-weight: bold;
-    color: white;
+    color: black;
     text-align: center;
     transition: color 2s;
     text-decoration: none
@@ -126,7 +126,7 @@
     transition-duration: .5s;
     margin: auto;
     text-decoration: none;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
   }
 
   #top {
@@ -161,10 +161,10 @@
   }
 
   #about {
-    height: 40vh;
+    height: 100vh;
     width: 100%;
-    background-color: #222222;
-    color: white;
+    background-color: white;
+    color: black;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -175,16 +175,14 @@
   }
 
   .aboutcon {
-    width: 500px;
-    height: auto;
-    padding: 20px;
-    background: #222222;
+    height: 90%;
+    width: 100%;
     font-size: 20px;
-    border: solid white 2px;
     margin: auto;
     text-align: center;
+    color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     vertical-align: middle;
   }
@@ -193,9 +191,50 @@
     height: 20px;
     width: 450px;
     margin: 15px auto;
-    color: white;
+    color: black;
     position: relative;
     text-align: center;
+  }
+
+  .about_div {
+    height: 100%;
+    width: 30%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  #rightabout {
+    /*display: none;*/
+    flex-direction: column;
+  }
+
+  #leftabout {
+    /*display: none;*/
+    flex-direction: column;
+  }
+
+  .cuttingboard {
+    height: auto;
+    width: 100%
+  }
+
+  .subarurally {
+    height: auto;
+    width: 100%;
+  }
+
+  .pasta {
+    height: auto;
+    width: 80%;
+  }
+
+  .rightimgs {
+    margin: auto;
   }
 
   .devicon-gulp-plain {
@@ -203,8 +242,8 @@
   }
 
   .md {
-    height: 30px;
-    width: 40px;
+    height: auto;
+    width: 100%;
   }
 
   .md:hover {
@@ -217,8 +256,8 @@
   #skills {
     height: 55vh;
     width: 100%;
-    background-color: #222222;
-    color: white;
+    background-color: white;
+    color: black;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -244,7 +283,7 @@
     height: auto;
     width: auto;
     display: flex;
-    color: white;
+    color: black;
     flex-direction: row;
     margin: 20px 25px;
   }
@@ -272,12 +311,12 @@
   }
 
   #projects {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     position: relative;
     /*background-image: url("./imgs/Mount_Timpanogos.jpg");*/
     background-size: cover;
-    background-color: #222222;
+    background-color: white;
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
@@ -318,8 +357,8 @@
   }
 
   .projcon {
-    height: 600px;
-    width: 95%;
+    height: auto;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -331,17 +370,17 @@
 
   .pronam {
     font-size: 25px;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 20px;
-    background-color: #222222;
+    background-color: white;
     transition-property: all;
     transition-duration: 1s;
-    color: white
+    color: black
   }
 
   .pronam:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
   }
 
   .go2 {
@@ -351,8 +390,9 @@
 
   .project {
     height: 400px;
-    width: 30%;
-    margin: auto;
+    /*width: 30%;*/
+    margin: 10px;
+    flex: 1;
     display: flex;
     flex-direction: column;
     opacity: .9;
@@ -374,7 +414,7 @@
     width: 100%;
     background-size: 100%;
     background: cover;
-    box-shadow: 5px 2px 2px  white;
+    box-shadow: 5px 2px 2px  black;
   }
 
   .projcover {
@@ -412,7 +452,7 @@
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: #222222;
+    background-color: white;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -430,26 +470,26 @@
     background-color: none;
     opacity: .9;
     justify-content: center;
-    color: white;
-    border: 2px solid white;
+    color: black;
+    border: 2px solid black;
   }
 
   .contcon a {
-    color: white
+    color: black
   }
 
   .contcon a:hover {
-    color: white
+    color: black
   }
 
   .det {
     margin: auto;
     text-align: center;
-    color: white
+    color: black
   }
   .sec {
     /*border-bottom: 2px solid white;*/
-    color: white;
+    color: black;
   }
 
   #linkedin {
