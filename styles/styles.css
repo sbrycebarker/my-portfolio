@@ -360,6 +360,13 @@
     background-position: center;
   }
 
+  #drumkit {
+    background-image: url("./imgs/drumkit.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .projcon {
     height: 50vh;
     width: 90%;
