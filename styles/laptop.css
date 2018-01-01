@@ -311,7 +311,7 @@
   }
 
   #projects {
-    height: 90vh;
+    height: auto;
     width: 100%;
     position: relative;
     /*background-image: url("./imgs/Mount_Timpanogos.jpg");*/
@@ -320,10 +320,11 @@
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
+    border-bottom: 2px solid black
   }
 
   #projects h1 {
-    margin: auto;
+    margin: 25px auto;
   }
 
   #starpro {
@@ -362,16 +363,22 @@
     background-position: center;
   }
 
+  #clock {
+    background-image: url("./imgs/clock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .projcon {
     height: auto;
-    width: 100%;
-    margin: auto;
+    width: 90%;
+    margin: 75px auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     /*border: 1px solid white;*/
-    /*border-radius: 15px;*/
-    /*background-color: black;*/
   }
 
   .pronam {
@@ -396,9 +403,8 @@
 
   .project {
     height: 400px;
-    /*width: 30%;*/
+    width: 30%;
     margin: 10px;
-    flex: 1;
     display: flex;
     flex-direction: column;
     opacity: .9;
