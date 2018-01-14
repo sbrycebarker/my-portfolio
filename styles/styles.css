@@ -376,6 +376,13 @@
     background-position: center;
   }
 
+  #perform {
+    background-image: url("./imgs/barkerperformance.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .projcon {
     height: auto;
     width: 90%;

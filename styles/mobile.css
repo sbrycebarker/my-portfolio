@@ -350,6 +350,13 @@
     background-position: center;
   }
 
+  #performpro {
+    background-image: url("./imgs/barkerperformance.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .projcon {
     height: 90%;
     width: 100%;
