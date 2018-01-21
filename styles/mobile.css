@@ -435,12 +435,13 @@
     height: 90vh;
     width: 100%;
     position: relative;
-    background-color: white;
+    background-color: #333333;
     background-size: cover;
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
     border-top: 2px solid black;
+    color: white;
   }
 
   .contcon {
@@ -455,11 +456,11 @@
     border-radius: 15px;
     opacity: .9;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid white;
   }
 
   .contcon a {
-    color: black
+    color: white
   }
 
   .contcon a:hover {
