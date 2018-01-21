@@ -135,12 +135,18 @@
     transition: color 2s
   }
 
-  .headeritem h2:hover {
+  .headeritem:hover {
     color: #3273C5;
-    transition: color;
-    transition-duration: .5s;
+    transform: rotateY(380deg);
+    transition-duration: 1s;
     margin: auto;
   }
+
+  /* .headeritem:active {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  } */
 
   #top {
     height: 725px;
@@ -328,7 +334,8 @@
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
-    border-top: 2px solid black
+    border-top: 2px solid black;
+    color: black
   }
 
   #projects h1 {
