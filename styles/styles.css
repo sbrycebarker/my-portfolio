@@ -71,7 +71,7 @@
     font-size: 50px;
     text-align: center;
     display: table-cell;
-    color: black;
+    color: inherit;
     vertical-align: middle;
   }
 
@@ -97,7 +97,7 @@
   }
 
   .home h1:hover {
-    color: grey;
+    color: #3273C5;
     transition-duration: .5s;
   }
 
@@ -127,6 +127,8 @@
     margin: auto;
     font-family: JosifinSans-Regular;
     font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: bold;
     /*font-weight: bold;*/
     color: black;
     text-align: center;
@@ -134,7 +136,7 @@
   }
 
   .headeritem h2:hover {
-    color: grey;
+    color: #3273C5;
     transition: color;
     transition-duration: .5s;
     margin: auto;
@@ -479,13 +481,14 @@
     height: 80vh;
     width: 100%;
     position: relative;
-    background-color: white;
+    background-color: #333333;
     background-size: cover;
     display: flex;
     font-family: JosifinSans-Regular;
     flex-direction: column;
     background-attachment: fixed;
-    border-top: 2px solid black;
+    border-top: 2px solid white;
+    color: white;
   }
 
   .contcon {
@@ -496,14 +499,14 @@
     display: flex;
     flex-direction: row;
     background-color: none;
-    border: black 2px solid;
+    border: white 2px solid;
     opacity: .9;
     justify-content: center;
-    color: black
+    color: white
   }
 
   .contcon a {
-    color: black
+    color: white
   }
 
   .contcon a:hover {
@@ -515,7 +518,7 @@
   }
   .sec {
     /*border-bottom: 2px solid white;*/
-    color: black;
+    color: white;
   }
 
   #linkedin {
