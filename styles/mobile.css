@@ -428,7 +428,7 @@
   .projcover:hover {
     transition-property: opacity;
     transition-duration: 1s;
-    opacity: .7
+    opacity: .9
   }
 
   #contact {
