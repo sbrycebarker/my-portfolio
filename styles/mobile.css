@@ -367,7 +367,7 @@
     background-position: center;
   }
 
-  #performpro {
+  #perform {
     background-image: url("./imgs/barkerperformance.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -459,6 +459,7 @@
     background-attachment: fixed;
     border-top: 2px solid black;
     color: white;
+    padding-bottom: 25px;
   }
 
   .contcon {
