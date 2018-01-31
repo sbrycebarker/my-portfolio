@@ -259,7 +259,8 @@
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
-    border-bottom: 2px solid #222
+    border-bottom: 2px solid #222;
+    padding-bottom: 25px;
   }
 
   .skillsbox {
@@ -316,6 +317,7 @@
     background-color: white;
     flex-direction: column;
     background-attachment: fixed;
+    padding-bottom: 25px;
   }
 
   .#projects .title {
