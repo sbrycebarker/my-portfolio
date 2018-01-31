@@ -255,8 +255,10 @@
     width: 100%;
     background-color: white;
     color: black;
-    background-size: cover;
+    background-size: contain;
     display: flex;
+    background: url(imgs/timp1.jpg);
+    background-position: center;
     flex-direction: column;
     background-attachment: fixed;
     border-bottom: 2px solid #222;

@@ -233,7 +233,7 @@
   .sergio {
     height: 300px;
     border-radius: 50%;
-    border: 3px solid black;
+    border: 2px solid black;
   }
 
   .rightimgs {
@@ -290,8 +290,9 @@
   #skills {
     height: 625px;
     width: 100%;
-    background-color: white;
-    color: black;
+    /* background-color: black; */
+    background: url(imgs/forest.jpg);
+    color: white;
     background-size: cover;
     display: flex;
     flex-direction: column;
