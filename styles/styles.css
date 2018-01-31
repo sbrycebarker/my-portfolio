@@ -181,7 +181,7 @@
   }
 
   #about {
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: white;
     color: black;
@@ -192,6 +192,7 @@
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     text-align: center;
+    padding-bottom: 50px;
   }
 
   .aboutcon {
@@ -229,9 +230,10 @@
     width: 100%;
   }
 
-  .pasta {
-    height: auto;
-    width: 80%;
+  .sergio {
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid black;
   }
 
   .rightimgs {
@@ -248,8 +250,24 @@
     text-overflow: ellipsis;
   }
 
+  #leftabout {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    flex-direction: column;
+  }
+
+  #centerabout {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    flex-direction: column;
+  }
+
   #rightabout {
     display: flex;
+    height: 300px;
+    width: 500px;
     flex-direction: column;
   }
 
