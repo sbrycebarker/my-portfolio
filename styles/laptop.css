@@ -168,7 +168,7 @@
   }
 
   #about {
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: white;
     color: black;
@@ -179,6 +179,7 @@
     border-top: 2px solid white;
     border-bottom: 2px solid #222;
     text-align: center;
+    padding-bottom: 50px;
   }
 
   .aboutcon {
@@ -235,9 +236,10 @@
     width: 100%;
   }
 
-  .pasta {
-    height: auto;
-    width: 80%;
+  .sergio {
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid black;
   }
 
   .rightimgs {

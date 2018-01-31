@@ -143,7 +143,7 @@
   }
 
   #about {
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: white;
     display: flex;
@@ -152,6 +152,7 @@
     background-attachment: fixed;
     border-bottom: 2px solid black;
     text-align: center;
+    padding-bottom: 25px;
   }
 
   .aboutcon {
@@ -165,7 +166,7 @@
     flex-direction: column;
     justify-content: center;
     vertical-align: middle;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
   }
 
   .about_div {
@@ -180,14 +181,28 @@
     vertical-align: middle;
   }
 
-  #rightabout {
-    display: none;
+  #leftabout {
+    display: flex;
+    height: 300px;
     flex-direction: column;
   }
 
-  #leftabout {
+  #centerabout {
     display: none;
+    height: 300px;
     flex-direction: column;
+  }
+
+  #rightabout {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+  }
+
+  .sergio {
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
   }
 
   .cuttingboard {
