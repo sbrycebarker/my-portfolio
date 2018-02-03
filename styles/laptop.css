@@ -83,8 +83,8 @@
   }
 
   .home h1:hover {
-    color: grey;
-    transition-duration: .5s;
+    color: #3273C5;
+    transition-duration: 1s;
     /*border-bottom: 2px solid black*/
   }
 
@@ -485,6 +485,7 @@
     background-color: #333333;
     background-size: cover;
     display: flex;
+    color: white;
     flex-direction: column;
     background-attachment: fixed;
     /*border-top: 2px solid white;*/

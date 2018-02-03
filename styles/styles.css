@@ -68,6 +68,7 @@
   }
 
   .titles {
+    margin: 50px auto;
     font-size: 50px;
     text-align: center;
     display: table-cell;
@@ -98,7 +99,7 @@
 
   .home h1:hover {
     color: #3273C5;
-    transition-duration: .5s;
+    transition-duration: 1s;
   }
 
   .headeritems {
@@ -125,19 +126,18 @@
     height: auto;
     width: auto;
     margin: auto;
+    text-align: center;
     font-family: JosifinSans-Regular;
     font-size: 16px;
     letter-spacing: 5px;
     font-weight: bold;
-    /*font-weight: bold;*/
     color: black;
-    text-align: center;
-    transition: color 2s
+    transition: color 1s;
   }
 
-  .headeritem:hover {
+  .headeritem h2:hover {
     color: #3273C5;
-    transform: rotateY(380deg);
+    /* transform: rotateX(380deg); */
     transition-duration: 1s;
     margin: auto;
   }
@@ -359,7 +359,7 @@
   }
 
   #projects h1 {
-    margin: 100px auto;
+    margin: 50px auto;
   }
 
   #starpro {
