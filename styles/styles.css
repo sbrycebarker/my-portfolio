@@ -292,7 +292,7 @@
     width: 100%;
     /* background-color: black; */
     background: url(imgs/forest.jpg);
-    color: white;
+    color: black;
     background-size: cover;
     display: flex;
     flex-direction: column;
