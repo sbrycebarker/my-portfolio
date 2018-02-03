@@ -358,9 +358,9 @@
     color: black
   }
 
-  #projects h1 {
-    margin: 50px auto;
-  }
+  /* #projects h1 {
+    margin: auto;
+  } */
 
   #starpro {
     /*border-radius: 15px 15px 0 0;*/
@@ -424,6 +424,7 @@
   }
 
   .pronam {
+    margin: 100px auto;
     font-size: 25px;
     border: 2px solid black;
     padding: 20px;
@@ -482,6 +483,10 @@
     display: flex;
     vertical-align: middle;
     transition: opacity 2s;
+  }
+
+  .projcover h1 {
+    margin: auto;
   }
 /*
   .starcov {
