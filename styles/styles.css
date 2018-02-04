@@ -534,7 +534,8 @@
     border: white 2px solid;
     opacity: .9;
     justify-content: center;
-    color: white
+    color: white;
+    border-radius: 15px;
   }
 
   .contcon a {
