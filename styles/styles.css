@@ -31,7 +31,7 @@
     width: 100%;
     background-color: white;
     position: fixed;
-    z-index: 1;
+    z-index: 50;
     border-bottom: .5px solid black;
     color: black;
     /*opacity: 0;*/
@@ -193,6 +193,7 @@
     border-top: 2px solid black;
     text-align: center;
     padding-bottom: 50px;
+    z-index: 25;
   }
 
   .aboutcon {
@@ -290,15 +291,23 @@
   #skills {
     height: 625px;
     width: 100%;
-    /* background-color: black; */
-    background: url(imgs/forest.jpg);
-    color: black;
+    background-image: url("imgs/codeback.jpeg");
+    color: white;
     background-size: cover;
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
-    /*border-bottom: 2px solid #222*/
+    z-index: 1
   }
+
+  /* #skills img {
+    height: 700px;
+    width: 100%;
+    background-image: url("imgs/forest.jpg");
+    background-size: cover;
+    position: absolute;
+    z-index: -1
+  } */
 
   .skillsbox {
     height: auto;
