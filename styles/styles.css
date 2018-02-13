@@ -469,6 +469,8 @@
   }
 
   .project h1 {
+    text-align: center;
+    /* width: 200px; */
     /*border: 2px solid black;*/
     padding: 10px;
   }
@@ -551,10 +553,6 @@
     color: white
   }
 
-  .contcon a:hover {
-    color: silver;
-    text-decoration: none;
-  }
   .det {
     margin: auto;
     text-align: center;
@@ -568,4 +566,9 @@
     position: relative;
   }
 
+}
+
+.contcon a:hover {
+  color: silver;
+  text-decoration: none;
 }
