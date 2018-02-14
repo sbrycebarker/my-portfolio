@@ -515,8 +515,8 @@
   }
 
   p {
-    font-size: 2.5rem;
-    margin: auto 15px;
+    font-size: 3.5rem;
+    margin: 50px auto !important;
     width: 90%;
   }
 
