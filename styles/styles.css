@@ -514,7 +514,7 @@
     text-align: center;
   }
 
-  p {
+  #projects p {
     font-size: 3.5rem;
     margin: 50px auto !important;
     width: 90%;
@@ -576,6 +576,10 @@
 
   .contcon a {
     color: white
+  }
+
+  .contcon p {
+    /* font-size: 1.1rem; */
   }
 
   .det {
