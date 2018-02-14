@@ -259,10 +259,10 @@
   }
 
   #skills {
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: white;
-    color: black;
+    color: white;
     background-size: contain;
     display: flex;
     background: url('imgs/codeback.jpeg');

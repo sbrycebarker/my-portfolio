@@ -18,10 +18,12 @@
     font-family: JosifinSans-Regular;
   }
 
-  a {
+  /* a {
     color: white;
     text-decoration: none;
-  }
+  } */
+
+
   a:hover {
     text-decoration: none;
   }
@@ -316,7 +318,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: black;
     border: 2px solid black;
     opacity: .9;
     justify-content: center;

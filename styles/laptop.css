@@ -7,13 +7,14 @@
     margin: 0;
     padding: 0;
   }
-  a {
+  /* a {
     color: white;
     text-decoration: none;
-  }
+  } */
   a:hover {
     text-decoration: none;
   }
+
   h2 a:hover,
   focus {
     text-decoration: none;
@@ -266,8 +267,8 @@
   #skills {
     height: 55vh;
     width: 100%;
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    color: white;
     background: url('imgs/codeback.jpeg');
     background-size: cover;
     display: flex;
@@ -283,9 +284,9 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: none;
+    background-color: white;
+    color: black !important;
     /*border-radius: 15px;*/
-    border: 2px solid white;
     opacity: .9;
     justify-content: center;
   }
@@ -297,6 +298,10 @@
     color: black;
     flex-direction: row;
     margin: 20px 25px;
+  }
+
+  .skillsbox a {
+    color: black
   }
 
   .skillsbox ul:hover {
@@ -314,6 +319,7 @@
   i {
     font-size: 50px;
     margin: auto;
+    color: black;
   }
 
   i:hover {
