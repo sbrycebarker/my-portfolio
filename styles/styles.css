@@ -364,7 +364,8 @@
     flex-direction: column;
     background-attachment: fixed;
     border-top: 2px solid black;
-    color: black
+    color: black;
+    padding-bottom: 100px;
   }
 
   /* #projects h1 {
@@ -422,9 +423,10 @@
   }
 
   .projcon {
-    height: auto;
+    height: 100%;
     width: 90%;
-    margin: 100px auto;
+    margin: 0 auto;
+    margin-bottom: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -433,8 +435,9 @@
   }
 
   .pronam {
-    margin: 100px auto;
+    margin: 25px auto;
     font-size: 25px;
+    width: 200px;
     border: 2px solid black;
     padding: 20px;
     background-color: white;
@@ -449,19 +452,16 @@
   }
 
   .project {
-    height: 50vh;
-    width: 33.3%;
-    display: flex;
-    flex-direction: column;
-    /*border: 2px solid white;*/
-    /*background-color: black;*/
+    height: 700px;
+    display: flex !important;
+    flex-direction: row;
     opacity: .9;
     color: black;
     position: relative;
   }
 
   .project a {
-    height: 300px;
+    height: 100%;
     width: 100%;
   }
   .project a:hover {
@@ -476,16 +476,16 @@
   }
 
   .projimg {
-    height: 300px;
-    width: 90%;
-    margin: auto;
+    height: 90%;
+    /* width: 90%; */
+    margin: 25px auto;
     background-size: 100%;
     background: cover;
     box-shadow: 5px 2px 2px  black;
   }
 
   .projcover {
-    height: 300px;
+    height: 100%;
     width: 100%;
     background-color: white;
     z-index: 3;
@@ -499,6 +499,30 @@
   .projcover h1 {
     margin: auto;
   }
+  .left {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+  }
+
+  .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #projects p {
+    font-size: 3.5rem;
+    margin: 50px auto !important;
+    width: 90%;
+  }
+
+  .piece {
+    margin: auto;
+  }
 /*
   .starcov {
     border-radius: 15px 0 0 0;
@@ -507,6 +531,7 @@
   .rockcov {
     border-radius: 0 15px 0 0;
   }*/
+
 
   .projcover h1 {
     height: 100px;
@@ -553,6 +578,10 @@
     color: white
   }
 
+  .contcon p {
+    /* font-size: 1.1rem; */
+  }
+
   .det {
     margin: auto;
     text-align: center;
@@ -566,6 +595,10 @@
     position: relative;
   }
 
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black
 }
 
 .contcon a:hover {
