@@ -325,18 +325,19 @@
     height: auto;
     width: 100%;
     position: relative;
-    /*background-image: url("./imgs/Mount_Timpanogos.jpg");*/
     background-size: cover;
     background-color: white;
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
+    color: black;
+    padding-bottom: 100px;
     border-bottom: 2px solid black
   }
 
-  #projects h1 {
+  /* #projects h1 {
     margin: 25px auto;
-  }
+  } */
 
   #starpro {
     /*border-radius: 15px 15px 0 0;*/
@@ -391,7 +392,8 @@
   .projcon {
     height: auto;
     width: 90%;
-    margin: 75px auto;
+    margin: 0 auto;
+    margin-bottom: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -400,7 +402,9 @@
   }
 
   .pronam {
+    margin: 25px auto;
     font-size: 25px;
+    width: 200px;
     border: 2px solid black;
     padding: 20px;
     background-color: white;
@@ -420,18 +424,17 @@
   }
 
   .project {
-    height: 400px;
-    width: 30%;
+    height: 500px;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: row;
     opacity: .9;
     color: white;
     position: relative;
   }
 
   .project a {
-    height: 50%;
+    height: 100%;
     width: 100%;
   }
 
@@ -440,8 +443,8 @@
   }
 
   .projimg {
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    margin: 25px auto;
     background-size: 100%;
     background: cover;
     box-shadow: 5px 2px 2px  black;
@@ -453,6 +456,7 @@
     background-color: white;
     z-index: 3;
     opacity: 0;
+    text-align: center;
     display: flex;
     vertical-align: middle;
     transition: opacity 2s;
@@ -460,21 +464,46 @@
 
   .projcover h1 {
     height: 100px;
-    width: 125px;
-    top: 20px;
-    position: relative;
     /*text-align: center;*/
   }
 
-  .starcov {
-    /*border-radius: 15px 0 0 0;*/
-    background-color: white
+  .left {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+  }
+
+  .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    margin: auto 15px;
+    width: 90%;
+  }
+
+  .piece {
+    margin: auto;
   }
 
   .projcover:hover {
     transition-property: opacity;
     transition-duration: 1s;
     opacity: .9
+  }
+
+  .projcover h1 {
+    height: 100px;
+    width: 200px;
+    position: relative;
   }
 
 
