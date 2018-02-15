@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1400px) and (min-width: 650px) {
+@media only screen and (max-width: 1400px) and (min-width: 750px) {
   html {
     height: 2000px;
     width: 100%;
@@ -145,28 +145,28 @@
     display: flex;
     background-attachment: fixed;
   }
-  .namepos h2 {
-    width: 80%;
-    margin: auto;
-    font-size: 35px;
-  }
   .namepos h1 {
-    width: 80%;
+    height: auto;
     margin: auto;
+    font-size: 2.5rem
   }
 
   .namepos {
-    height: 30%;
-    width: 50%;
+    height: 7%;
+    width: 200px;
     display: flex;
     flex-direction: column;
     position: relative;
     margin: auto;
     color: white;
-    background-color: none;
+    background-color: #1A1919;
+    /* border: 2px solid black; */
     border-radius: 0;
-    opacity: .9;
     text-align: center;
+  }
+
+  .namepos h2 {
+    font-size: auto;
   }
 
   #about {
@@ -187,7 +187,7 @@
   .aboutcon {
     height: 90%;
     width: 100%;
-    font-size: 20px;
+    font-size: 5px;
     margin: auto;
     text-align: center;
     color: black;
@@ -197,19 +197,24 @@
     vertical-align: middle;
   }
 
-  .aboutcon p {
+  .aboutcon h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  /* .aboutcon p {
     height: 20px;
     width: 450px;
     margin: 15px auto;
-    color: black;
+    color: red;
     position: relative;
     text-align: center;
-  }
+  } */
 
   .about_div {
     height: 100%;
     width: 30%;
-    font-size: 20px;
+    /* font-size: 20px; */
     margin: auto;
     text-align: center;
     display: flex;
