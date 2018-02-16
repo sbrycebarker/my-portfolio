@@ -389,7 +389,7 @@
     height: 90%;
     width: 100%;
     margin: auto;
-    display: flex;
+    display: none;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
