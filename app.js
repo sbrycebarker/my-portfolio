@@ -6,5 +6,4 @@ angular.module("myApp", ['ui.router']).config(function($urlRouterProvider, $stat
             templateUrl: "./views/home.html",
             controller: 'mainCtrl'
           })
-
 })
