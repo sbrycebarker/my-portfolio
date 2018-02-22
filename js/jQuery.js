@@ -1,4 +1,3 @@
-// $(document).reload()
 $(document).ready(function(){
   // Add scrollspy to <body>
   $('.projcon').css('display', 'flex')
@@ -28,5 +27,5 @@ $(document).ready(function(){
     slidesToScroll: 1,
     dots: true
   });
-  
+
 });
