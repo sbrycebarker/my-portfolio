@@ -15,7 +15,7 @@
     text-decoration: none;
   }
 
-  h2 a:hover,
+  h2 a:hover
   focus {
     text-decoration: none;
   }
@@ -405,7 +405,7 @@
     width: 90%;
     margin: 0 auto;
     margin-bottom: 100px;
-    display: none;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
