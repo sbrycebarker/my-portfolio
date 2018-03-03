@@ -1,7 +1,8 @@
-  $('.projcon').css('display', 'none')
+
 
 $(document).ready(function(){
   // Add scrollspy to <body>
+  $('.projcon').css('display', 'none')
   $('.projcon').css('display', 'flex')
   $('body').scrollspy({target: ".navbar", offset: 200});
 
