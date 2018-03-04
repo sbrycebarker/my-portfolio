@@ -1,12 +1,15 @@
   $('.projcon').css('display', 'none')
 $(document).ready(function(){
   // Add scrollspy to <body>
-  $('.multiple-items').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true
-  });
+  function slick() {
+    $('.multiple-items').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true
+    });
+  }
+  slick()
 
 
   $('.projcon').css('display', 'flex')
