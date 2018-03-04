@@ -1,10 +1,18 @@
-
-
+  $('.projcon').css('display', 'none')
 $(document).ready(function(){
   // Add scrollspy to <body>
-  $('.projcon').css('display', 'none')
+  $('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true
+  });
+
+
   $('.projcon').css('display', 'flex')
   $('body').scrollspy({target: ".navbar", offset: 200});
+
+
 
   $("#headerNav a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -21,13 +29,6 @@ $(document).ready(function(){
         window.location.hash;
       });
     }  // End if
-  });
-
-  $('.multiple-items').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true
   });
 
 });
