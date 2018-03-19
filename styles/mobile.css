@@ -385,6 +385,13 @@
     background-position: center;
   }
 
+  #writers {
+    background-image: url("./imgs/thewritersgang.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .projcon {
     height: 90%;
     width: 90%;
