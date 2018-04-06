@@ -406,6 +406,13 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  
+  #Image-filter {
+    background-image: url("./imgs/OIF.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
   .projcon {
     height: auto;
