@@ -281,8 +281,8 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
-    border: 2px solid black;
+    background-color: none;
+    /* border: 2px solid black; */
     opacity: .9;
     justify-content: center;
     color: black;
@@ -312,7 +312,7 @@
   i {
     font-size: 40px;
     margin: auto;
-    color: black;
+    color: white;
   }
 
   i:hover {
@@ -477,6 +477,7 @@
     height: 100vh;
     width: 100%;
     position: relative;
+    background-image: url('./imgs/darkwood.jpg');
     background-color: #333333;
     background-size: cover;
     display: flex;

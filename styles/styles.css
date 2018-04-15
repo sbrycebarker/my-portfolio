@@ -8,8 +8,9 @@
   html {
     height: 2000px;
     width: 100%;
-    /* font-family: JosifinSans-Regular; */
+    font-family: JosifinSans-Regular;
     color: black;
+    font-weight: bold;
   }
 
   body {
@@ -33,7 +34,9 @@
     background-color: white;
     position: fixed;
     z-index: 50;
-    border-bottom: .5px solid black;
+    font-family: helvetica;
+    font-weight: bold;
+    /* border-bottom: .5px solid black; */
     color: black;
     /*opacity: 0;*/
   }
@@ -90,7 +93,6 @@
   .home h1 {
     position: relative;
     margin: auto auto;
-    font-family: JosifinSans-Regular;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -319,8 +321,8 @@
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
-    border: 2px solid black;
+    background-color: none;
+    /* border: 2px solid black; */
     opacity: .9;
     justify-content: center;
   }
@@ -329,7 +331,7 @@
     height: auto;
     width: auto;
     display: flex;
-    color: black;
+    color: white;
     flex-direction: row;
     margin: 25px 25px;
   }
@@ -349,7 +351,7 @@
   i {
     font-size: 75px;
     margin: auto;
-    color: black
+    color: white
   }
 
   i:hover {
@@ -569,7 +571,6 @@
     background-image: url('./imgs/darkwood.jpg');
     background-size: cover;
     display: flex;
-    font-family: JosifinSans-Regular;
     flex-direction: column;
     background-attachment: fixed;
     border-top: 2px solid white;

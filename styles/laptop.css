@@ -19,6 +19,7 @@
   focus {
     text-decoration: none;
   }
+
   header {
     height: 65px;
     width: 100%;
@@ -289,7 +290,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: none;
     color: black !important;
     /*border-radius: 15px;*/
     opacity: .9;
@@ -324,7 +325,7 @@
   i {
     font-size: 50px;
     margin: auto;
-    color: black;
+    color: white;
   }
 
   i:hover {
@@ -406,7 +407,7 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-  
+
   #Image-filter {
     background-image: url("./imgs/OIF.png");
     background-size: cover;
@@ -536,6 +537,7 @@
     height: 100vh;
     width: 100%;
     position: relative;
+    background-image: url('./imgs/darkwood.jpg');
     background-color: #333333;
     background-size: cover;
     display: flex;
