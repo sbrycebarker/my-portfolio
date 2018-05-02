@@ -1,5 +1,5 @@
 angular.module('myApp').controller('mainCtrl', function($scope){
-  function slick() {
+  $scope.slick = function() {
     $('.multiple-items').slick({
       infinite: true,
       slidesToShow: 1,
@@ -7,5 +7,5 @@ angular.module('myApp').controller('mainCtrl', function($scope){
       dots: true
     });
   }
-  slick()
+  $scope.slick()
 })

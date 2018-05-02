@@ -441,6 +441,13 @@
     background-position: center;
   }
 
+  #rock2-0 {
+    background-image: url("./imgs/rockshowz2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .projcon {
     height: 100%;
     width: 90%;
