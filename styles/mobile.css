@@ -458,7 +458,7 @@
     width: 100%;
     background-color: white;
     z-index: 3;
-    opacity: 0;
+    opacity: .9;
     display: flex;
     vertical-align: middle;
     transition: opacity 2s;
@@ -477,7 +477,7 @@
   .projcover:hover {
     transition-property: opacity;
     transition-duration: 1s;
-    opacity: .9
+    opacity: .1
   }
 
   #contact {

@@ -489,7 +489,7 @@
     width: 100%;
     background-color: white;
     z-index: 3;
-    opacity: 0;
+    opacity: .7;
     text-align: center;
     display: flex;
     vertical-align: middle;
@@ -531,7 +531,7 @@
   .projcover:hover {
     transition-property: opacity;
     transition-duration: 1s;
-    opacity: .9
+    opacity: .1
   }
 
   .projcover h1 {

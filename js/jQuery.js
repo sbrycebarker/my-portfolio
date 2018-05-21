@@ -18,21 +18,21 @@ $(document).ready(function(){
 
 
 
-  // $("#headerNav a").on('click', function(event) {
-  //
-  //   if (this.hash !== "") {
-  //
-  //     event.preventDefault();
-  //
-  //     var hash = this.hash;
-  //
-  //     $('html, body').animate({
-  //       scrollTop: $(hash).offset().top - 50
-  //     }, 800, function(){
-  //
-  //       window.location.hash;
-  //     });
-  //   }
-  // });
+  $("#headerNav a").on('click', function(event) {
+
+    if (this.hash !== "") {
+
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - 50
+      }, 800, function(){
+
+        window.location.hash;
+      });
+    }
+  });
 
 });
