@@ -144,6 +144,7 @@
     background-image: url("./imgs/darkwood.jpg");
     background-size: cover;
     display: flex;
+    flex-direction: column;
     background-attachment: fixed;
   }
   .namepos h1 {
@@ -153,21 +154,28 @@
   }
 
   .namepos {
-    height: 7%;
-    width: 200px;
+    height: 100px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     position: relative;
     margin: auto;
     color: white;
-    background-color: #1A1919;
-    /* border: 2px solid black; */
     border-radius: 0;
     text-align: center;
+  }
+  .name {
+    background-color: #1A1919;
+  }
+
+  .pos {
+    background-color: none
   }
 
   .namepos h2 {
     font-size: auto;
+    background-color: #1A1919;
+    border: 1px solid white
   }
 
   #about {

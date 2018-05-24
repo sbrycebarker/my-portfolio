@@ -157,32 +157,43 @@
     background-image: url("./imgs/darkwood.jpg");
     background-size: cover;
     display: flex;
+    flex-direction: column;
     background-attachment: fixed;
   }
 
   .namepos h1 {
     height: auto;
-    /* width: 50%; */
     margin: auto;
   }
 
   .namepos {
-    height: 7%;
-    width: 19%;
+    height: 125px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     position: relative;
     margin: auto;
     color: white;
-    background-color: #1A1919;
     /* border: 2px solid black; */
     border-radius: 0;
     text-align: center;
   }
 
   .namepos h2 {
+    /* top: 100px; */
     font-size: auto;
   }
+
+  .name {
+    background-color: #1A1919;
+  }
+
+  .pos {
+    background-color: none;
+    position: static;
+  }
+
+
 
   #about {
     height: auto;
