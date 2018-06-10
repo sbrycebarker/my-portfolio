@@ -114,6 +114,11 @@
     text-align: center;
   }
 
+  .fadeIn {
+    animation-duration: 3s;
+    animation-delay: 1s;
+  }
+
   .headeritem {
     height: 25px;
     /*border-right: 1px solid white;*/
@@ -177,7 +182,11 @@
     /* border: 2px solid black; */
     border-radius: 0;
     text-align: center;
+    animation-duration: 3s;
+    animation-delay: 1s;
   }
+
+
 
   .namepos h2 {
     /* top: 100px; */
